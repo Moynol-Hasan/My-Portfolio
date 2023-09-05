@@ -43,3 +43,12 @@
     display: inline;
     font-weight: bold;
 }
+
+.references-inner-text{
+   text-align: justify;
+}
+
+
+.faculty-name{
+    font-weight: bold;
+}
