@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bde7166cbd.js" crossorigin="anonymous"></script>
+
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <!-- banner section -->
+
+    <!-- <section class="banner-container container-fluid">
+        <div class="row vh-100">
+            <div class="col-md-9 banner-column m-auto border border-light text-center p-4 text-white">
+                <h1 class="dispay-4 font-weight-bolder">Md. Moynol Hasan Ome</h1>
+                <h3>Competitive Programmer,Web Developer</h3>
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- banner section -->
+
+    <!-- navbar section  -->
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark navbar-container">
+        <div class="container">
+            <a class="navbar-brand" href="#Home">OME's Profile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Skills">SKILLS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">PROJECTS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Cp">CP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Education">EDUCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#References">REFERENCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">CONTACT</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-container">
+        <div class="container">
+        <a class="navbar-brand" href="#Home">OME's Profile</a>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">OME's Profile</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div> -->
+
+            <div class="offcanvas-body nav-text" id="offcanvasNavbar">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Skills">SKILLS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">PROJECTS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Cp">CP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Education">EDUCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#References">REFERENCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">CONTACT</a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+          </div>
+        </div>
+      </nav>
+
+
+
+    <!-- navbar section  -->
+
+    <!-- Home Section  -->
+
+    <div class="about-container pt-5" id="Home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-9 py-5 text-white justify-content-center">
+
+                    <h3>Md. Moynol Hasan Ome</h3>
+                    <p>Competitive Programmer || Web Developer</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem placeat molestiae quam ullam
+                        reiciendis quo voluptatem harum eaque rem dolorem iste, ex error, hic adipisci vitae amet illo.
+                        Facilis nihil nesciunt ducimus at voluptates perferendis voluptate, consequatur minus nam
+                        dolorem in, optio repudiandae? Fugiat laudantium nulla beatae tenetur deleniti error hic. Vero
+                        ea, ut qui neque deserunt temporibus amet earum, vel minima culpa quas. Libero cupiditate
+                        voluptas aliquam in incidunt ducimus! Sunt hic, aperiam corrupti soluta blanditiis nostrum ex
+                        quos autem officiis nesciunt! Accusamus, eaque aut veritatis quam minus debitis repudiandae
+                        vitae cupiditate ipsam illo beatae consequuntur inventore explicabo sequi!</p>
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis veniam quibusdam quidem
+                        blanditiis, nihil culpa, nobis autem totam delectus ullam ducimus eum vel fuga placeat tempora
+                        iusto possimus eligendi dolor, quas deleniti sit tempore modi optio rem! Aliquam similique,
+                        cumque eaque ut iusto error, fuga ipsa minus quidem tempore ad at quae eveniet. Quae corporis
+                        hic dolorem sapiente impedit temporibus laudantium. Itaque assumenda, suscipit libero maxime
+                        eligendi, earum ducimus voluptatum quisquam hic nobis, dolorem fugiat accusamus officiis?
+                        Asperiores, at, veritatis iusto minima perspiciatis, quod quasi repellat illo maiores error
+                        tempora. Pariatur obcaecati voluptatum sed error vitae. Enim cum suscipit tempore.</p>
+                </div>
+
+                <div class="col-md-3 mb-5">
+                    <img src="images/myimg.jpg" alt="Moynol" class="img-fluid rounded-circle border border-light">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Section  -->
+
+
+
+    <!-- About Section  -->
+
+
+
+    <div class="cp-container pt-5" id="About">
+
+        <div class="container">
+        
+            <div class="row text-center py-5">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+
+            
+            <div class="row box-shadow-container">
+
+                <div class="col-md-7">
+
+                    <p class="cp-font">Introduction</p>
+
+                    <p class="text-cp">I'm a competitive programmer and passionate about problem solving. I have solved 1500+ problems in various online judging platforms and learned a lot about algorithms and how to work with a team to solve problems. Also, I participated in many intra & inter university programming contest. Also a curious learner and creative team player, looking for an opportunity where I can utilize my understanding of coding to contribute towards augmenting the reputation of the company. I also have knowledge about frontend development as well.</p>
+    
+                </div>
+    
+                <div class="col-md-5 about-section">
+    
+                    <p class="cp-font">Basic Information</p>
+                    
+                    <ul>
+                        <li><i class="fa-solid fa-phone basic-info" style="color: #39a245;"></i>01835930726</li>
+                        <li><i class="fa-regular fa-envelope basic-info" style="color: #944138;"></i>ome3953@gmail.com</li>
+                        <li><i class="fa-solid fa-globe basic-info" style="color: #4f76ba;"></i>Ashkona,Hajjcamp,Dhaka-1230</li>
+                        <li><i class="fa-solid fa-language basic-info" style="color: #4f76ba;"></i>Bengali,English</li>
+                    </ul>
+
+    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- About section  -->
+
+
+
+    <!-- Skills section  -->
+
+
+    <div class="skills-container pt-5 mx-3" id="Skills">
+        <div class="container">
+            <div class="row text-center py-5">
+                <div class="col">
+                    <h2>Technical Skills</h2>
+                </div>
+            </div>
+
+            <div class="row box-shadow-container">
+                <div class="col-md-4">
+                    <p class="cp-font">Languages</p>
+
+                    <div class="progress-container progress-primary for-margin">
+                        <span class="logo-skill">
+                            <img src="	https://img.icons8.com/color/48/null/c-plus-plus-logo.png" alt="">
+                        </span>
+
+                        <span class="text-skill">C/C++</span>
+                    </div>
+
+                    <div class="progress-container progress-primary for-margin">
+                        <span class="logo-skill">
+                            <img src="images/js.png" alt="">
+                        </span>
+
+                        <span class="text-skill">JavaScript</span>
+                    </div>
+
+                    <div class="progress-container progress-primary for-margin">
+                        <span class="logo-skill">
+                            <img src="https://img.icons8.com/color/48/null/java-coffee-cup-logo--v1.png" alt="">
+                        </span>
+
+                        <span class="text-skill">Java</span>
+                    </div>
+
+
+                    <div class="progress-container progress-primary for-margin">
+                        <span class="logo-skill">
+                            <img src="images/php.png" alt="">
+                        </span>
+
+                        <span class="text-skill">php</span>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-4">
+                    <p class="cp-font">Web Technology & Database</p>
+
+                    <div class="progress-container progress-primary for-margin">
+                        <span class="logo-skill">
+                            <img src="images/html.jpg" alt="">
+                        </span>
+
+                        <span class="text-skill">HTML</span>
+                    </div>
+
+                    <div class="progress-container progress-primary for-margin">
+                        <span class="logo-skill">
+                            <img src="images/css.jpg" alt="">
+                        </span>
+
+                        <span class="text-skill">CSS</span>
+                    </div>
+
+                    <div class="progress-container progress-primary for-margin">
+                        <span class="logo-skill">
+                            <img src="images/bootstrap.jpg" alt="">
+                        </span>
+
+                        <span class="text-skill">Bootstrap</span>
+                    </div>
+
+                    <div class="progress-container progress-primary for-margin">
+                        <span class="logo-skill">
+                            <img src="https://img.icons8.com/color/48/null/oracle-logo.png" alt="">
+                        </span>
+
+                        <span class="text-skill">Oracle Sql</span>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <p class="cp-font">Git & Tools
+                    <p>
+
+                    <div class="progress-container progress-primary for-margin">
+                        <span class="logo-skill">
+                            <img src="	https://img.icons8.com/ios-filled/48/null/github.png" alt="">
+                        </span>
+
+                        <span class="text-skill">Github</span>
+                    </div>
+
+                    <div class="progress-container progress-primary for-margin">
+                        <span class="logo-skill">
+                            <img src="https://img.icons8.com/fluency/48/null/operating-system.png" alt="">
+                        </span>
+
+                        <span class="text-skill">Windows/Linux</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- skills Section  -->
+
+
+
+    <!-- Project Section  -->
+
+    <div class="project-container pt-5" id="Projects">
+        <div class="container">
+            <div class="row text-center py-5">
+                <div class="col">
+                    <h2>Projects</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 pb-3">
+                    <div class="card box-shadow-container">
+                        <div class="card-body">
+                            <img src="images/project1.png" style="width: 100%;" alt="" class="img-fluid cp-border">
+                            <h3 class="py-3">University Website</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reiciendis fuga totam
+                                excepturi ex dicta vel rerum dolor iusto eligendi aliquam autem, nesciunt dolores aut
+                                consequuntur reprehenderit aperiam praesentium assumenda accusamus debitis. Odit illum
+                                blanditiis atque optio et, laudantium reprehenderit?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pb-3">
+                    <div class="card box-shadow-container">
+                        <div class="card-body">
+                            <img src="images/project2.png" style="width: 100%;" alt="" class="img-fluid cp-border">
+                            <h3 class="py-3">Quiz Application</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum culpa, porro amet debitis
+                                corrupti similique, a accusamus incidunt ad tempora rerum expedita placeat quae
+                                consequuntur excepturi fugit sint facilis eligendi doloribus obcaecati necessitatibus
+                                natus reprehenderit aliquam distinctio? Voluptatum, earum a?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card box-shadow-container">
+                        <div class="card-body">
+                            <img src="images/project3.png" style="width: 100%;" alt="" class="img-fluid cp-border">
+                            <h3 class="py-3">My Portfolio</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum culpa, porro amet debitis
+                                corrupti similique, a accusamus incidunt ad tempora rerum expedita placeat quae
+                                consequuntur excepturi fugit sint facilis eligendi doloribus obcaecati necessitatibus
+                                natus reprehenderit aliquam distinctio? Voluptatum, earum a?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- project section  -->
+
+
+
+    <!-- Cp section  -->
+
+
+    <div class="cp-container pt-5" id="Cp">
+
+        <div class="container">
+            <div class="row text-center py-5">
+                <div class="col">
+                    <h2>Competitive Programming</h2>
+                </div>
+            </div>
+
+            <div class="container box-shadow-container py-3">
+
+                <div class="row text-center py-3">
+                    <div class="col">
+                        <h2 class="cp-text">Onsite Contest</h2>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 pb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/edu.jpg" style="width: 100%;" alt="" class="img-fluid">
+                                <p class="py-3 text-center cp-description">EDU Inter University Programming Contest, 2022</p>
+                                    <div class="host-center">
+                                        <p class="host-text">HOST:</p> <p class="host-name"> East Delta University</p><br><br>
+                                        <p class="host-text">Team Name:</p><p class="team-name"> UITS_Entity</p><br>
+                                        <p class="host-text">Position: 34<sup>th</sup></p></p>
+                                    </div>
+
+                                    <p class="contest-descrip">It was my first inter-university programming contest. Our team was very excited about the contest. We were able to solve 3 problems among 8 problems. It was a great experience for me and my team.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 pb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/intra_uits.jpg" style="width: 100%;" alt="" class="img-fluid">
+                                <p class="pt-3 pb-4 text-center cp-description">Intra University Programming Contest, 2022</p>
+                                <div class="host-center">
+                                    <p class="host-text">HOST:</p> <p class="host-name">University of Information Technology & Sciences
+                                    </p><br><br>
+                                    <p class="host-text">Team Name:</p><p class="team-name"> UITS_Entity</p><br>
+                                    <p class="host-text">Position: 7<sup>th</sup></p></p>
+                                    <p class="contest-descrip">It was my first intra-university programming contest where our team got a prize. We solved 4 problems out of 7 problems. It boosts us for the future. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 pb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/solo.PNG" style="width: 100%;" alt="" class="img-fluid">
+                                <p class="pt-3 pb-2 text-center cp-description">Victory Day Solo Programming Contest, 2022</p>
+                                <div class="host-center">
+                                    <p class="host-text">HOST:</p> <p class="host-name">University of Information Technology & Sciences
+                                    </p><br><br>
+                                    <!-- <p class="host-text">Team Name:</p><p class="team-name"> UITS_Entity</p><br> -->
+                                    <p class="host-text">Position: 4<sup>th</sup></p></p>
+                                    <p class="contest-descrip">It was a solo programming contest. Where more than 100 juniors and senior programmers participated. Among them, I stood fourth. There was 9 problem and I was able to solve 5 problem among them.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center py-3">
+                    <div class="col">
+                        <h2 class="cp-text">Online Competitive Programming</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 pb-3">
+                        <div class="card box-shadow-container">
+                            <div class="card-body">
+                                <a href="https://codeforces.com/profile/Moynol_Ome"><img src="images/codefoces.png" style="width: 100%;" alt="" class="img-fluid cp-border"></a>
+                                <h3 class="pt-3 text-center">Codeforces</h3>
+
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 pb-3">
+                        <div class="card">
+                            <div class="card-body box-shadow-container">
+                                <a href="https://www.codechef.com/users/ome_1256"><img src="images/codechef.png" style="width: 100%;" alt="" class="img-fluid cp-border"></a>
+                                <h3 class="pt-3 text-center">Codechef</h3>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 pb-3">
+                        <div class="card box-shadow-container">
+                            <div class="card-body">
+                                <a href="https://leetcode.com/moynol_hasan_ome/"><img src="images/leetcode.png" style="width: 100%;" alt="" class="img-fluid cp-border"></a>
+                                <h3 class="pt-3 text-center">Leetcode</h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- cp section  -->
+
+
+
+    <!-- Education section  -->
+
+    <div class="education-container pt-5 mx-3" id="Education">
+
+        <div class="container ">
+            <div class="row text-center py-5">
+                <div class="col">
+                    <h2 class="education-redtype">Education</h2>
+                </div>
+            </div>
+
+            <div class="row box-shadow-container mb-5 rounded">
+                <div class="col-md-3 education-description text-white py-5 rounded">
+
+                    <div class="education-date text-center">
+                        <br>
+                        <h6>2020 - 2023</h6>
+                        <h5>Bachelor's Degree</h5>
+
+                    </div>
+
+                </div>
+                <div class="col-md-9">
+                    <div class="education-descrip">
+                        <h3>Information Technology (IT)</h3>
+                        <h4 class="education-text">University of Information Technology and Sciences</h4>
+                       <ul class="education-info">
+                        <li>Maintained above 3.50 cgpa in every semester of university academic</li>
+                        <li>Attending Intra‐university programming contests</li>
+                        <li>I introduce freshers & juniors to competitive programming and help them develop their skills in this particular field</li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row box-shadow-container mb-5 rounded">
+                <div class="col-md-3 education-description text-white py-5 rounded">
+
+                    <div class="education-date text-center">
+                        <br>
+                        <h6>2017 - 2019</h6>
+                        <h5>Higher Secondary</h5>
+
+                    </div>
+
+                </div>
+                <div class="col-md-9">
+                    <div class="education-descrip">
+                        <h3>Higher Secondary Certificate (HSC)</h3>
+                        <h4 class="education-text">Shaheed Bir Bikram Ramijuddin Cantonment College, Dhaka</h4>
+                        <ul class="education-info">
+                            <li>Passed HSC exam with a result of 5.00 gpa</li>
+                            <li>There was a good base on physics, mathematics</li>
+                            <li>The college was also focus on the English language and literature</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row box-shadow-container rounded">
+                <div class="col-md-3 education-description text-white py-5 rounded">
+
+                    <div class="education-date text-center">
+                        <br>
+                        <h6>2015 - 2016</h6>
+                        <h5>Secondary School</h5>
+
+                    </div>
+
+                </div>
+                <div class="col-md-9">
+                    <div class="education-descrip">
+                        <h3>Secondary School Certificate (SSC)</h3>
+                        <h4 class="education-text">B.B.M High School & College</h4>
+                        <ul class="education-info">
+                            <li>Passed SSC exam with a result of 5.00 gpa</li>
+                            <li>There was a good base on physics, mathematics</li>
+                            <li>The school was also focus on the English language and literature</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- Education section  -->
+
+
+
+    <!-- REFERENCES Section  -->
+
+
+    <div class="references-container pt-5  mx-3" id="References">
+
+        <div class="container">
+
+            <div class="row text-center py-5">
+                <div class="col">
+                    <h2>References</h2>
+                </div>
+            </div>
+
+            <div class="row box-shadow-container pb-2">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row text-center">
+                                <div class="col-md-4 py-5">
+                                    <img src="images/shayokh.jpg" alt="...">
+                                    <h6 class="faculty-name">Mr. Md. Al Shayokh</h6>
+                                    <h6 class="faculty-name"> Assistant Professor & Head</h6>
+                                    <h6> Department of IT,UITS <br>
+                                        al.shayokh@uits.edu.bd</h6>
+
+                                </div>
+                                <div class="col-md-7 pt-5 references-inner-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque totam accusantium
+                                    obcaecati velit atque quo nulla doloremque fugit a dolores quibusdam, earum officiis
+                                    natus? Tempore deleniti repellat ipsam dolorem sequi quaerat voluptatibus fuga odit
+                                    alias necessitatibus asperiores dignissimos nam eius cumque laudantium ipsa aut
+                                    repellendus, molestiae numquam commodi! Natus mollitia aliquam optio repudiandae
+                                    nesciunt neque molestiae. Dicta, alias in quisquam similique ducimus reiciendis ab
+                                    dolor sequi, vitae possimus explicabo voluptatem illo! Odit explicabo earum amet
+                                    molestiae quod nesciunt quisquam impedit laborum sapiente, enim veniam minima quis,
+                                    suscipit ex tenetur ullam, doloremque deserunt odio rerum. Debitis laudantium
+                                    corrupti minima natus suscipit!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row text-center">
+                                <div class="col-md-4 py-5">
+                                    <img src="images/istiaq.jpg" alt="...">
+                                    <h6 class="faculty-name"> Md. Ishtiaq Iqbal</h6>
+                                    <h6 class="faculty-name">Lecturer and Course Coordinator</h6>
+                                    <h6> Department of IT,UITS <br>
+                                        Ishtiaq.Iqbal@uits.edu.bd</h6>
+
+                                </div>
+                                <div class="col-md-7 pt-5 references-inner-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, debitis? Assumenda ea
+                                    sequi omnis qui! Dolores illum recusandae officiis facilis autem delectus provident
+                                    sint aut accusamus eius at perferendis ex, debitis adipisci dolorem iste deleniti
+                                    molestiae veniam sapiente alias quibusdam commodi aspernatur! A quas itaque libero
+                                    mollitia. Voluptatum ab blanditiis dolorum. Minus voluptas explicabo ipsa ad saepe
+                                    ratione quae quos veniam eius quasi! Inventore, temporibus eligendi soluta amet
+                                    placeat hic dicta doloremque dolore reprehenderit earum magni, libero, asperiores
+                                    blanditiis distinctio cumque. Sit, dicta. Rerum enim provident est dolores
+                                    cupiditate nobis, placeat explicabo in reprehenderit porro cum, minima iure aut
+                                    nemo?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- REFERENCES Section  -->
+
+
+    <!-- contact section  -->
+
+    <div class="contact-container  mx-3  pt-5" id="Contact">
+
+        <div class="container">
+            <div class="row text-center py-5">
+                <div class="col">
+                    <h2>Contact with me</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row box-shadow-container mb-5 rounded">
+                <div class="col-md-3 contact-description text-white text-center rounded">
+
+                    <img src="images/mail.png" alt="" class="img-fluid my-5">
+
+                    <h4 class="contact-font">I am open to work.</h4><br>
+                    <h4>Please, do not hesitate to contact me.</h4>
+
+                </div>
+                <div class="col-md-7">
+                    <form action="backend.php">
+
+                        <div class="row">
+                            <div class="col pt-5 ps-5">
+                                <p class="contact-box">Your Name</p>
+                                <input type="text" class="form-control" placeholder="Enter your name" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col pt-3 ps-5">
+                                <p class="contact-box">Your email address</p>
+                                <input type="text" class="form-control" placeholder="Enter your email" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col pt-3 ps-5">
+                                <p class="contact-box">Subject</p>
+                                <input type="text" class="form-control" placeholder="Email Subject" required>
+                            </div>
+                        </div>
+
+                        <div class="row mb-5">
+                            <div class="col pt-3 ps-5">
+                                <p class="contact-box">Message</p>
+                                <textarea name="" id="" cols="80" rows="8" class="form-control"
+                                    placeholder="Message me..." required></textarea>
+                                <button type="button" class="btn-message">send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact section  -->
+
+
+
+    <!-- footer section  -->
+
+    <div class="container-footer py-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <ul class="middle">
+                        <li><a href="https://github.com/Moynol-Hasan"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/md-moynol-hasan-ome-2a0084243/"><i
+                                    class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/prince.ariyan.9231712"><i
+                                    class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+
+                    <p class="footer-line"><a href="https://www.linkedin.com/in/md-moynol-hasan-ome-2a0084243/">© Md.
+                            Moynol Hasan Ome</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
