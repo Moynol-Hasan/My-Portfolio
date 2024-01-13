@@ -9,7 +9,10 @@
    text-decoration: none;
 }
 
-
+a{
+   text-decoration: none;
+   color: white;
+}
 
  body{
     font-family: 'open sans',sans-serif;
@@ -94,6 +97,18 @@
    border: none;
    border-radius: 5px;
 }
+
+.btn-project
+{
+   background-color: rgb(17, 26, 32);
+   color:white;
+   padding: 5px 20px;
+   margin: 20px 0px;
+   border: none;
+   border-radius: 5px;
+}
+
+
 
 .cp-font
 {
